@@ -1,40 +1,50 @@
 # TACC Sphinx Theme
 
-A Sphinx theme for TACC documentation that extends the ReadTheDocs theme (`sphinx_rtd_theme`).
+A [TACC](https://www.tacc.utexas.edu/)-styled [Sphinx](https://www.sphinx-doc.org/) theme based on **ReadTheDocs**'s own [Sphinx theme](https://github.com/readthedocs/sphinx_rtd_theme/blob/master/README.rst).
 
-## Installation
+## How to Install
 
-Install the theme using pip:
+1. Install the theme e.g.
 
-```bash
-pip install sphinx_tacc_theme
-```
+   > [!CAUTION]
+   > **Not published yet.**
+   >
+   > ```bash
+   > pip install sphinx-tacc-theme
+   > ```
 
-## Usage
+   > [!NOTE]
+   > **Development method.**
+   >
+   > ```bash
+   > pip install -e "sphinx-tacc-theme @git+https://github.com/TACC/sphinx-tacc-theme.git#work-in-progress"
+   > ```
 
-To use the theme in your Sphinx documentation:
+2. In your `conf.py`:
 
-1. Add `sphinx_tacc_theme` to your project's dependencies
-2. In your `conf.py`, set:
+    - Add theme `sphinx_tacc_theme`:
 
-```python
-import sphinx_tacc_theme
+      ```python
+      import sphinx_tacc_theme
 
-html_theme = "sphinx_tacc_theme"
-```
+      html_theme = "sphinx_tacc_theme"
+      ```
+    - <del>Set [typical extensions for this theme](./docs/extensions.md#typical).</del>
+      <ins>Not yet certain to be documented.</ins>
 
-## Development
+> [!NOTE]
+> We <del>also</del> <ins>do not yet</ins> offer <!--[-->detailed instructions<!--](https://tacc.github.io/mkdocs-tacc/)--> instead.
 
-To work on this theme:
+## Known Clients
 
-1. Clone the repository
-2. Install in editable mode:
-   ```bash
-   pip install -e .
-   ```
-3. Make your changes
-4. Test with a Sphinx project by setting the theme in its `conf.py`
+| Status | Repository |
+| - | - |
+| Active | |
+| Upcoming | [TACC/life_sciences_ml_at_tacc](https://github.com/TACC/life_sciences_ml_at_tacc) |
+| Potential | [TACC/containers_at_tacc](https://github.com/TACC/containers_at_tacc) |
 
-## License
+## Contributing
 
-MIT License 
+<del>We welcome contributions. Read ["How to Contribute"](./CONTRIBUTING.md).</del>
+
+<ins>We do not yet offer guidance on how to contribute</ins>.
