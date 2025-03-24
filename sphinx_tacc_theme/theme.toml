@@ -1,0 +1,19 @@
+[theme]
+inherit = "sphinx_rtd_theme"
+stylesheets = [
+    "css/tacc-theme.css",
+]
+pygments_style = { default = "default" }
+
+[options]
+canonical_url = ""
+analytics_id = ""
+collapse_navigation = true
+sticky_navigation = true
+navigation_depth = 4
+includehidden = true
+titles_only = false
+logo_only = false
+display_version = true
+prev_next_buttons_location = "bottom"
+style_external_links = false

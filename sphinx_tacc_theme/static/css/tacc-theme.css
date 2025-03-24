@@ -1,0 +1,4 @@
+/* https://cdn.jsdelivr.net/gh/TACC/mkdocs-tacc@refactor/support-sphinx-rtd-hotlink-via-cdn/mkdocs_tacc/tacc_readthedocs/css/tacc-theme.css */
+@import url("./theme.css") layer(foundation.rtd);
+
+@import url("https://cdn.jsdelivr.net/gh/TACC/mkdocs-tacc@refactor/support-sphinx-rtd-hotlink-via-cdn/mkdocs_tacc/tacc_readthedocs/css/tacc-theme.css");

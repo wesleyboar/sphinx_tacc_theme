@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sphinx_tacc_theme"
+version = "0.1.0"
+description = "A Sphinx theme for TACC documentation based on sphinx_rtd_theme"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+    { name = "Texas Advanced Computing Center" }
+]
+dependencies = [
+    "sphinx>=4.0",
+    "sphinx_rtd_theme>=1.0"
+]
+
+[project.entry-points."sphinx.html_themes"]
+sphinx_tacc_theme = "sphinx_tacc_theme"
