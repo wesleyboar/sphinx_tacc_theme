@@ -4,21 +4,23 @@ A [TACC](https://www.tacc.utexas.edu/)-styled [Sphinx](https://www.sphinx-doc.or
 
 ## How to Install
 
-1. Install the theme e.g.
+> [!CAUTION]
+> **Not published yet.**
+>
+> 1. Install the theme e.g.
+>
+>    ```bash
+>    pip install sphinx-tacc-theme
+>    ```
 
-   > [!CAUTION]
-   > **Not published yet.**
-   >
-   > ```bash
-   > pip install sphinx-tacc-theme
-   > ```
-
-   > [!NOTE]
-   > **Development method.**
-   >
-   > ```bash
-   > pip install -e "sphinx-tacc-theme @git+https://github.com/TACC/sphinx-tacc-theme.git#work-in-progress"
-   > ```
+> [!IMPORTANT]
+> **Development method.**
+>
+> 1. Install the theme e.g.
+>
+>    ```bash
+>    pip install -e "sphinx-tacc-theme @git+https://github.com/TACC/sphinx-tacc-theme.git"
+>    ```
 
 2. In your `conf.py`:
 
